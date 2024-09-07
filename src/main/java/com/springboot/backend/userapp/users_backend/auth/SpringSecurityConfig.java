@@ -64,7 +64,6 @@ public class SpringSecurityConfig {
 
    @Bean
    CorsConfigurationSource configurationSourse()    {
-   
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOriginPatterns(Arrays.asList("*"));
         config.setAllowedOrigins(Arrays.asList("http://localhost:4200"));
